@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom:  1px solid #e0e0e0;
+}
+
+.logo{
+font-size:  24px;
+font-weight: bold;
+color: #333;
+}
+
+.span-one {
+    color: #007bff;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav ul li a{
+    color: #333;
+    font-weight: 500;
+}
+
+.contact{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+
+main{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+.filters{
+    display: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.filters button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    border-radius: 4x;
+    transition: background-color 0.3s;
+}
+
+.filters button:hover,
+.filters button:focus{
+    background-color: #007bff;
+    color: white;
+}
+
+.filters button:active{
+    background-color: #0056b3;
+}
+
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+article{
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    width:calc(33.333% - 20px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0 ,0.1);
+    transition: transform 0.3s;
+}
+
+article:hover{
+    transform: scale(1.02);
+}
+
+article img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-cont{
+    padding: 15px;
+    text-align: center;
+}
+
+.text-cont h3{
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.text-cont p{
+    color: #777;
+}
+
+footer{
+    background-color: #2d2d3a;
+    color:#fff;
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.footer-info, footer-contact{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+footer-info .logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-info .span-one{
+    color: #007bff;
+}
+
+.footer-contact addres,
+.footer-contact p{
+    margin: 5px 0;
+    color: #ddd
+}
+
+.footer-contact a{
+    color: #aaa;
+    transition:  color 0.3s;
+}
+
+.footer a:hover{
+    color: #007bff;
+}
